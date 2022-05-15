@@ -13,5 +13,7 @@ public class Logger {
         sender.sendMessage("/mps reload重载插件");
         sender.sendMessage("/mps save <玩家名> 保存指定玩家数据");
         sender.sendMessage("/mps saveall保存所有玩家数据");
+        sender.sendMessage("/mps load <玩家名> 载入指定玩家数据");
+        sender.sendMessage("/mps loadall 载入所有玩家数据");
     }
 }
