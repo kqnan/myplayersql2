@@ -1,17 +1,12 @@
 name: Myplayersql
-version: '${project.version}'
+version: 1.0
 main: me.kqn.myplayersql.Myplayersql
 api-version: 1.16
 commands:
-  ${project.name}:
-    description: ${project.name}插件
+  Myplayersql:
+    description: Myplayersql插件
     aliases: mps
 permissions:
-  ${project.name}.*:
-    description: ${project.name}所有权限
-    default: op
-    children:
-      ${project.name}.save: true
-  ${project.name}.save:
-    description: 使用保存命令的权限
+  Myplayersql.op:
+    description: Myplayersql所有权限
     default: op
